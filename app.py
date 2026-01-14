@@ -10,8 +10,8 @@ app = Flask(__name__)
 # =========================
 # 네이버 API
 # =========================
-NAVER_CLIENT_ID = "WGtLsHz1E7932kkdcRIv"
-NAVER_CLIENT_SECRET = "umH3D8r9Hl"
+NAVER_CLIENT_ID = "NAVER_CLIENT_ID"
+NAVER_CLIENT_SECRET = "NAVER_CLIENT_SECRET"
 
 # =========================
 # 유틸
