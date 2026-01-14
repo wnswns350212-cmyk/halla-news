@@ -3,6 +3,10 @@ import re
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 import random
+from flask import Flask, request, render_template_string
+
+# Flask 애플리케이션 객체 생성
+app = Flask(__name__)
 
 # 네이버 API 환경변수
 NAVER_CLIENT_ID = "WGtLsHz1E7932kkdcRIv"
